@@ -1,0 +1,46 @@
+
+PARSING SENTENCE: Houston 
+NUMBER OF PARSES FOUND: 0
+CHART:
+  chart[1,1]: NP PROPER
+
+PARSING SENTENCE: book 
+NUMBER OF PARSES FOUND: 1
+CHART:
+  chart[1,1]: NOMINAL NOUN S VERB VP
+
+PARSING SENTENCE: Houston book 
+NUMBER OF PARSES FOUND: 1
+CHART:
+  chart[1,1]: NP PROPER
+  chart[1,2]: S
+  chart[2,2]: NOMINAL NOUN S VERB VP
+
+PARSING SENTENCE: I prefer TWA 
+NUMBER OF PARSES FOUND: 1
+CHART:
+  chart[1,1]: NP PRONOUN
+  chart[1,2]: S
+  chart[1,3]: S
+  chart[2,2]: S VERB VP
+  chart[2,3]: S VP X2
+  chart[3,3]: NP PROPER
+
+PARSING SENTENCE: book the flight to Houston 
+NUMBER OF PARSES FOUND: 3
+CHART:
+  chart[1,1]: NOMINAL NOUN S VERB VP
+  chart[1,2]: -
+  chart[1,3]: S VP X2
+  chart[1,4]: -
+  chart[1,5]: S S S VP VP VP X2
+  chart[2,2]: DET
+  chart[2,3]: NP
+  chart[2,4]: -
+  chart[2,5]: NP
+  chart[3,3]: NOMINAL NOUN
+  chart[3,4]: -
+  chart[3,5]: NOMINAL
+  chart[4,4]: PREP
+  chart[4,5]: PP
+  chart[5,5]: NP PROPER

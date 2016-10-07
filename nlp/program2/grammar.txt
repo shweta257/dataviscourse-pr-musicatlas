@@ -1,0 +1,52 @@
+S -> NP VP
+S -> X1 VP
+X1 -> AUX NP
+S -> book
+S -> include
+S -> prefer
+S -> VERB NP
+S -> X2 PP
+S -> VERB PP
+S -> VP PP
+NP -> I
+NP -> she
+NP -> me
+NP -> TWA
+NP -> Houston
+NP -> DET NOMINAL
+NOMINAL -> book
+NOMINAL -> flight
+NOMINAL -> meal
+NOMINAL -> money
+NOMINAL -> NOMINAL NOUN
+NOMINAL -> NOMINAL PP
+VP -> book
+VP -> include
+VP -> prefer
+VP -> VERB NP
+VP -> X2 PP
+X2 -> VERB NP
+VP -> VERB PP
+VP -> VP PP
+PP -> PREP NP
+DET -> the
+DET -> this
+DET -> a
+NOUN -> book
+NOUN -> flight
+NOUN -> meal
+NOUN -> money
+VERB -> book
+VERB -> include
+VERB -> prefer
+PRONOUN -> I
+PRONOUN -> she
+PRONOUN -> me
+PROPER -> Houston
+PROPER -> TWA
+AUX -> does
+PREP -> from
+PREP -> to
+PREP -> on
+PREP -> near
+PREP -> through
